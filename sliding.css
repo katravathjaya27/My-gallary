@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+}
+h1{
+   text-align: center;
+   font-size: 100px;
+   margin-top: 50px;
+}
+.box{
+    height: 500px;
+    width: 1000px;
+    position: relative;
+    top: 100px;
+    border: none;
+    left: 200px;
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    margin-bottom: 200px;
+}
+div{
+    height: 500px;
+    width: 19%;
+    border: 1px solid ;
+    border-radius: 10px;
+
+}
+.box1{
+    background-image: url(jaya_yellow1.jpg);
+    background-position: center;
+    transition: width 0.5s ease-in;
+    background-size: cover;
+
+}
+.box2{
+    background-image: url(jaya_yellow2.jpg);
+    background-size: cover;
+    /* transition: background-position 0.5s ease-in-out; */
+    transition:width 0.5s ease-in;
+
+}
+.box3{
+    background-image: url(jaya_yellow3.jpg);
+    background-position: center;
+    transition: width 0.5s ease-in;
+    background-size: cover;
+
+
+}
+.box4{
+    background-image: url(jaya_yellow4.jpg);
+    background-position: center;
+    transition: width 0.5s ease-in;
+    background-size: cover;
+
+
+}
+.box5{
+    background-image: url(jaya_yellow5.jpg);
+    background-position: left;
+    transition: width 0.5s ease-in;
+    background-size: cover;
+
+
+}
+.b:hover {
+        width: 40%;
+        transform: scale(1.1);
+    background-position:center;
+    border: 3px solid rgb(245, 228, 45);
+        /* z-index: 10; */
+    }
+   
