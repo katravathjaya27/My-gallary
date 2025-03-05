@@ -9,11 +9,10 @@ h1{
 .box{
     height: 500px;
     width: 1000px;
-     display: block;
-            margin: auto;
-            width: 50%;
-    border: none;
-    
+    display: block;
+    margin: auto;
+    width: 50%;
+    border: none;  
     display: flex;
     border-radius: 10px;
     justify-content: space-evenly;
